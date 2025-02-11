@@ -1,0 +1,60 @@
+#myForm {
+  max-width: 700px;
+  margin: 50px auto;
+  padding: 30px;
+  border: 1px solid #ddd;
+  border-radius: 15px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+}
+
+#myForm h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-family: 'Arial', sans-serif;
+  color: #333;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+#myForm .form-label {
+  font-weight: bold;
+  font-family: 'Arial', sans-serif;
+  color: #444;
+}
+
+#myForm .form-control {
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 20px;
+  font-family: 'Arial', sans-serif;
+}
+
+#myForm .btn-primary {
+  width: 100%;
+  padding: 12px;
+  border-radius: 8px;
+  background-color: #007bff;
+  border: none;
+  font-family: 'Arial', sans-serif;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+#myForm .btn-primary:hover {
+  background-color: #0056b3;
+}
+
+#myForm .form-group {
+  margin-bottom: 25px;
+}
+
+#myForm .form-control:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.Card {
+  margin-top: 20px;
+}

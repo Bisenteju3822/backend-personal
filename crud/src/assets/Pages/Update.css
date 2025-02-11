@@ -1,0 +1,54 @@
+/* update.css */
+
+#myForm {
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 1000px;
+  /* Adjust this width as needed */
+  margin: 20px auto;
+  /* Center the form horizontally */
+  overflow-x: auto;
+  /* Add horizontal scroll for overflow */
+}
+
+h1 {
+  text-align: center;
+  color: #28a745;
+  margin-bottom: 20px;
+  font-family: 'Arial', sans-serif;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+thead {
+  background-color: #28a745;
+  color: #ffffff;
+}
+
+th,
+td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #dddddd;
+  word-wrap: break-word;
+  /* Ensure content wraps within cells */
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+#myIcon {
+  cursor: pointer;
+  color: #007bff;
+  transition: color 0.3s;
+}
+
+#myIcon:hover {
+  color: #0056b3;
+}

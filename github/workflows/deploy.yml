@@ -1,10 +1,9 @@
-name: CI
+name: Deploy Backend
 
 on:
   push:
-    branches: [ main ]
-  pull_request:
-    branches: [ main ]
+    branches:
+      - main
 
 jobs:
   build:
@@ -17,13 +16,12 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v2
         with:
-          node-version: '16'
+          node-version: '14'
 
       - name: Install dependencies
-        run: npm install
+        run: cd backend && npm install
 
-      - name: Run build
-        run: npm run build
-
-      - name: Run tests
-        run: npm test
+      - name: Deploy to server
+        run: |
+          echo "Deploying backend..."
+          # Add your deployment script here

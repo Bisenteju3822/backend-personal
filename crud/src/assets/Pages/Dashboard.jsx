@@ -87,7 +87,7 @@ const Dashboard = () => {
         </Col>
         <Col md={4}>
           <img
-            src="o30lctogjlu1ajdzgv2e.jpg"
+            src="pexels-jakubzerdzicki-30572289.jpg"
             alt="Dashboard"
             className="img-fluid"
             style={{

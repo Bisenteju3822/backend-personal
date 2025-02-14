@@ -5,7 +5,7 @@ import { RiDeleteBin6Fill } from "react-icons/ri";
 import { FaEdit } from "react-icons/fa";
 import { message } from "antd";
 import { useNavigate } from "react-router-dom";
-import "./update.css";
+import "./Update.css";
 
 const Update = () => {
   const [data, setData] = useState([]);

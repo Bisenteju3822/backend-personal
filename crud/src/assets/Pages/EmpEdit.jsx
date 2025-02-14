@@ -29,7 +29,7 @@ const EmpEdit = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    const api = "http://localhost:8000/personal/editdatasave";
+    const api = "https://personal-finance-tracker-avsp.onrender.com/personal/editdatasave";
     const res = await axios.post(api, input);
     message.success("Record Successfully updated!!!");
     console.log(res);

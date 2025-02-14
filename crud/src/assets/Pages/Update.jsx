@@ -12,7 +12,7 @@ const Update = () => {
   const navigate = useNavigate();
 
   const loadData = async () => {
-    let api = "http://localhost:8000/personal/display";
+    let api = "https://personal-finance-tracker-avsp.onrender.com/personal/display";
     const res = await axios.get(api);
     setData(res.data);
   };

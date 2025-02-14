@@ -22,7 +22,7 @@ const Update = () => {
   }, []);
 
   const handleDelete = async (id) => {
-    let api = `http://localhost:8000/personal/delete/?expenseId=${id}`;
+    let api = `https://personal-finance-tracker-avsp.onrender.com/personal/delete/?expenseId=${id}`;
     const res = await axios.get(api);
     message.success(res.data);
     loadData();

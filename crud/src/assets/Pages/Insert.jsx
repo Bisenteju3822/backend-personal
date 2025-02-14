@@ -3,7 +3,7 @@ import axios from "axios";
 import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
 import { message } from "antd";
-import "./insert.css";
+import "./Insert.css";
 
 const Insert = () => {
   const [input, setInput] = useState({

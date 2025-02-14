@@ -12,7 +12,7 @@ const Update = () => {
   const navigate = useNavigate();
 
   const loadData = async () => {
-    let api = "http://localhost:8000/personal/display";
+    let api = "https://personal-finance-tracker-avsp.onrender.com/personal/display";
     const res = await axios.get(api);
     setData(res.data);
   };
@@ -22,7 +22,7 @@ const Update = () => {
   }, []);
 
   const handleDelete = async (id) => {
-    let api = `http://localhost:8000/personal/delete/?expenseId=${id}`;
+    let api = `https://personal-finance-tracker-avsp.onrender.com/personal/delete/?expenseId=${id}`;
     const res = await axios.get(api);
     message.success(res.data);
     loadData();

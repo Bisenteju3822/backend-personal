@@ -19,7 +19,7 @@ const Search = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    let api = "http://localhost:8000/personal/search";
+    let api = "https://personal-finance-tracker-avsp.onrender.com/personal/search";
     try {
       const response = await axios.post(api, input);
       console.log(response.data);

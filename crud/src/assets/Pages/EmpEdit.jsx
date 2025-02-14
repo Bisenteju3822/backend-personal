@@ -4,7 +4,6 @@ import Form from "react-bootstrap/Form";
 import axios from "axios";
 import { useEffect, useState } from "react";
 import { message } from "antd";
-import "./update.css";
 
 const EmpEdit = () => {
   const { id } = useParams();

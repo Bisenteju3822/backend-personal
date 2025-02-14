@@ -7,7 +7,7 @@ import {
   FaSearch,
   FaInfoCircle,
 } from "react-icons/fa"; // Importing Font Awesome icons
-import "./dashboard.css";
+import "./Dashboard.css";
 
 const Dashboard = () => {
   return (
@@ -93,6 +93,8 @@ const Dashboard = () => {
             style={{
               borderRadius: "20px",
               boxShadow: "0px 4px 8px rgba(0, 0, 0, 0.1)",
+              width: "500px",
+              height: "400px",
             }}
           />
         </Col>

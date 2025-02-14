@@ -6,14 +6,51 @@ const About = () => {
           <div className="col-md-6">
             <h2>About Us</h2>
             <p className="lead">
-              We are a team of passionate individuals committed to delivering
-              the best services to our customers. Our mission is to help you
-              succeed by providing top-notch solutions tailored to your needs.
+              Welcome to Your Financial Companion! Our Personal Finance Tracker
+              is designed to help you take control of your financial life.
+              Whether youre looking to manage your daily expenses, save for
+              future goals, or track your investments, our app is here to
+              support you every step of the way.
             </p>
-            <p>
-              With years of experience and a dedication to excellence, we strive
-              to exceed your expectations in every project we undertake. Join us
-              on our journey and lets achieve great things together!
+            <p className="lead">
+              <strong>Key Features:</strong>
+              <br />
+              <strong>Expense Tracking:</strong> Log and categorize your
+              expenses to see where your money is going.
+              <br />
+              <strong>Budgeting:</strong> Create and manage budgets to ensure
+              you stay on track with your financial goals.
+              <br />
+              <strong>Investment Monitoring:</strong> Keep an eye on your
+              investments and see how they contribute to your financial health.
+              <br />
+              <strong>Credit Score Monitoring:</strong> Regularly check your
+              credit score and receive alerts for any changes.
+              <br />
+              <strong>Financial Goal Setting:</strong> Set short-term and
+              long-term goals, and track your progress.
+              <br />
+              <strong>Customizable Reports:</strong> Generate detailed reports
+              to analyze your spending habits and make informed decisions.
+            </p>
+            <p className="lead">
+              <strong>Why Choose Us?</strong>
+              <br />
+              <strong>User-Friendly Interface:</strong> Easy to navigate and
+              use, even for beginners.
+              <br />
+              <strong>Real-Time Updates:</strong> Connect your bank accounts and
+              credit cards for up-to-date information.
+              <br />
+              <strong>Security and Privacy:</strong> Your financial data is safe
+              with us, thanks to advanced encryption and security measures.
+              <br />
+              <strong>Free and Affordable Plans:</strong> Choose a plan that
+              fits your needs and budget.
+            </p>
+            <p className="lead">
+              Join us today and start your journey towards financial stability
+              and success!
             </p>
           </div>
           <div className="col-md-6">
@@ -21,6 +58,12 @@ const About = () => {
               src="pexels-william-fortunato-6393018.jpg"
               alt="About Us"
               className="img-fluid"
+              style={{
+                borderRadius: "20px",
+                width: "500px",
+                marginTop: "160px",
+                marginLeft: "100px",
+              }}
             />
           </div>
         </div>

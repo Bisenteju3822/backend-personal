@@ -4,7 +4,7 @@ import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 import Form from "react-bootstrap/Form";
 import { message } from "antd";
-import "./search.css";
+import "./Search.css";
 
 const Search = () => {
   const [input, setInput] = useState({ amount: "" });

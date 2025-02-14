@@ -7,7 +7,7 @@ import {
   FaSearch,
   FaInfoCircle,
 } from "react-icons/fa"; // Importing Font Awesome icons
-import "./dashboard.css";
+import "./Dashboard.css";
 
 const Dashboard = () => {
   return (

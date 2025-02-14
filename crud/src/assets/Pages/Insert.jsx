@@ -24,7 +24,7 @@ const Insert = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    let api = "http://localhost:8000/personal/insert";
+    let api = "https://personal-finance-tracker-avsp.onrender.com/personal/insert";
     try {
       const response = await axios.post(api, input);
       console.log(response.data);

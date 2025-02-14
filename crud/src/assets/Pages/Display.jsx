@@ -8,7 +8,7 @@ const Display = () => {
   const [data, setData] = useState([]);
 
   const loadData = () => {
-    const api = "http://localhost:8000/personal/display";
+    const api = "https://personal-finance-tracker-avsp.onrender.com/personal/display";
     axios
       .get(api)
       .then((res) => {
